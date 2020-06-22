@@ -60,6 +60,10 @@ h1 {
     color: #ffc107;
 }
 
+.gold-contact {
+    color: #ffc107;
+}
+
 .marker {
     font-family: 'Permanent Marker', cursive;
     font-size: 24px;
@@ -188,7 +192,7 @@ a {
         background-color: #ffc107
     }
 
-    .gold {
+    .gold-contact {
         color: maroon;
     }
 
