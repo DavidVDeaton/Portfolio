@@ -7,4 +7,4 @@ Focus of the website was to employ bootstrap skills and to make the website resp
 
 Currently photos on "Portfolio" page do not link to those various projects.  Will update that in the future.
 
-
+https://davidvdeaton.github.io/Portfolio/
