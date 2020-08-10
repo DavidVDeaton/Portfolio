@@ -1,39 +1,39 @@
 body {
-    background-color:#ffc107;
+    background-color:black;
 }
 
 .navbar {
     font-family:'Permanent Marker', cursive;
-    color:#ffc107;
-    background-color: maroon;
+    color:black;
+    background-color: white;
 }
 
 nav ul li {
     font-family:'Permanent Marker', cursive;
-    color: #ffc107;
+    color: black;
     list-style-type:none;
     padding-left:.5em;
     float: right;
 }
 
 .btn {
-    border-color:#ffc107;
-    color:#ffc107;
+    border-color:black;
+    color:black;
 }
 
 .content {
     min-height: calc(80vh - 80px);
-    background-color: maroon;
-    color: maroon;
+    background-color: white;
+    color: white;
 }
 
 h1 {
-    color:#ffc107;
+    color: black;
     font-family:'Permanent Marker', cursive;
 }
 
 .card {
-    background-color:#ffc107;
+    background-color:black;
     border: none;
 }
 
@@ -45,8 +45,12 @@ h1 {
     font-family:'Permanent Marker', cursive;
 }
 
+h4 {
+    margin-top: 12px;
+}
+
 .gold-border {
-    border: 4px solid #ffc107;
+    border: 4px solid black;
     width: 100%;
     max-height: 650px;
 }
@@ -57,11 +61,11 @@ h1 {
 
 .gold {
     font-size: 18px;
-    color: #ffc107;
+    color: black;
 }
 
 .gold-contact {
-    color: #ffc107;
+    color: black;
 }
 
 .marker {
@@ -77,8 +81,8 @@ h1 {
     font-family: 'Permanent Marker', cursive;
     font-size: 20px;
     height: 50 px;
-    background-color:#ffc107;
-    color: maroon;
+    background-color:black;
+    color: white;
     text-align: center;    
 }
 
@@ -87,7 +91,7 @@ h1 {
 }
 
 a {
-    color:maroon;
+    color:white;
 }
 
 /* These rule take effect when the browser's width is either 1024 or less. */
@@ -189,11 +193,11 @@ a {
     .container-contact {
         width:450px;
         margin: 0px, 25px;
-        background-color: #ffc107
+        background-color: black
     }
 
     .gold-contact {
-        color: maroon;
+        color: white;
     }
 
     .form-group {

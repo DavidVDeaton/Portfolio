@@ -1,4 +1,4 @@
-# 02-homework
+# Portfolio
 CSS-Bootstrap Homework
 
 Created a simple website featuring an "About Me", "Portfolio" and "Contact" page.
