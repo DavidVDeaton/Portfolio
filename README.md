@@ -13,7 +13,7 @@ Portfolio
 - [Create By](#create-by)
 
 # General info
-This portfolio will introduce you to David Deaton and display some of his html, css and javascript coding projects.
+This portfolio will introduce you to David Deaton and display some of his coding projects.
 
 Please visit [https://davidvdeaton.github.io/Portfolio/index.html](https://davidvdeaton.github.io/Portfolio/index.html) for the site.
 
