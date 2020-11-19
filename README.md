@@ -53,11 +53,5 @@ The following technology have been used for this project:
 # Status
 Project status: Finished
 
-# Future Plan
-
-Plan for the future development of this site:
-1. Add additional projects to portfolio page.
-2. Complete the "About Me" bio.
-
 # Create By
 Created by David Deaton
