@@ -50,6 +50,8 @@ The following technology have been used for this project:
     1. Bootstrap
     2. Portfolio Stylesheet
 
+3. JavaScript
+
 # Status
 Project status: Finished
 
