@@ -35,6 +35,7 @@ h1 {
 .card {
     background-color:black;
     border: none;
+    margin: 3px;
 }
 
 .card-img-top {
@@ -50,8 +51,9 @@ h4 {
 }
 
 #resume {
-    color: blue;
-    font: underline ;
+    color:black;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .gold-border {
@@ -97,6 +99,10 @@ h4 {
 
 a {
     color:white;
+}
+
+.row {
+    padding: 10px;
 }
 
 /* These rule take effect when the browser's width is either 1024 or less. */
