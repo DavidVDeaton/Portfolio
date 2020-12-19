@@ -1,10 +1,15 @@
 body {
-    background-image: url(dicerollercode.PNG);
+    background-image: url(deaton_family_2020-017.jpg);
+    background-color: rgb(115, 15, 15);
     background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
 
 }
 
-.navbar {
+/* .navbar {
     font-family:'Permanent Marker', cursive;
     color:maroon;
     background-color: gold;
@@ -223,4 +228,4 @@ h4 {
     }
 
     
-}
+} 
