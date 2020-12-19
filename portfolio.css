@@ -1,5 +1,7 @@
 body {
-    background-color:maroon;
+    background-image: url(dicerollercode.PNG);
+    background-blend-mode: screen;
+
 }
 
 .navbar {
