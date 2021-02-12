@@ -5,11 +5,8 @@ Portfolio
 - [Project Name](#portfolio)
 - [Table of contents](#table-of-contents)
 - [General info](#general-info)
-- [Screenshots](#screenshots)
-- [Features](#features)
 - [Technology](#technology)
 - [Status](#status)
-- [Future Plan](#future-plan)
 - [Create By](#create-by)
 
 # General info
@@ -17,38 +14,15 @@ This portfolio will introduce you to David Deaton and display some of his coding
 
 Please visit [https://davidvdeaton.github.io/Portfolio/index.html](https://davidvdeaton.github.io/Portfolio/index.html) for the site.
 
-For the feature of the site, please visit the [Features](#features) section for more details.
-
-# Screenshots
-About Me:
-
-![About Me](images/aboutme.PNG?raw=true)
-
-Portfolio:
-
-![Portfolio](images/portfoliopage.PNG?raw=true)
-
-Contact:
-
-![Contact](images/contact.PNG?raw=true)
-
-# Features
-This portfolio contains links to the deployed site of various coding projects.  Additionally, all repositories can be found by clicking on the GitHub link at the bottom of each page.
-
 # Code Style
 Standard
 
 # Technology
 The following technology have been used for this project:
 
-1. HTML:
-    1. About Me
-    2. Portfolio
-    3. Contact
+1. HTML
    
-2. Stylesheets
-    1. Bootstrap
-    2. Portfolio Stylesheet
+2. CSS
 
 3. JavaScript
 

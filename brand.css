@@ -1,0 +1,85 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    background-image: url(images/CDC-David-Indv.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1 {
+    color: rgb(235, 230, 230);
+    font-size: 3.5em;
+    padding: .5rem;
+    margin-left: 2%;
+    justify-self: start;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-rows:auto 1fr auto;
+}
+
+nav {
+    padding: .75rem;
+    place-items: center;
+    color: black;
+    background-color: rgb(235, 230, 230, .75);
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 1fr auto auto auto auto auto auto;
+}
+
+.mainContent {
+    height: auto;
+    width: 40%;
+    font-size: 20px;
+    margin-top: 4%;
+    margin-left: 5%;
+    background-color: rgb(235, 230, 230, .75);
+    padding: .5rem;
+    font-weight: 900;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 1.5rem;
+}
+
+ul {
+    display: inline;
+}
+
+footer {
+    padding: .5rem;
+    text-align: center;
+    color:black;
+    background-color: rgb(235, 230, 230, .75);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+.none {
+    display: none;
+}
+
+.base {
+    display: block;
+}
