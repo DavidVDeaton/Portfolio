@@ -12,7 +12,7 @@ Portfolio
 # General info
 This portfolio will introduce you to David Deaton and display some of his coding projects.
 
-Please visit [https://davidvdeaton.github.io/Portfolio/index.html](https://davidvdeaton.github.io/Portfolio/index.html) for the site.
+Please visit [https://davidvdeaton.github.io/Portfolio/](https://davidvdeaton.github.io/Portfolio/) for the site.
 
 # Code Style
 Standard
