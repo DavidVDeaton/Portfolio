@@ -7,7 +7,6 @@ $('#pe').mouseover(function() {
     $('#ts').removeClass('underline');
     $('#nw').removeClass('underline');
     $('#ed').removeClass('underline');
-    $('#resume').removeClass('underline');
 
     $('#tsDesc').removeClass('base');
     $('#nwDesc').removeClass('base');
@@ -29,7 +28,6 @@ $('#ts').mouseover(function() {
     $('#pe').removeClass('underline');
     $('#nw').removeClass('underline');
     $('#ed').removeClass('underline');
-    $('#resume').removeClass('underline');
 
     $('#peDesc').removeClass('base');
     $('#nwDesc').removeClass('base');
@@ -50,7 +48,6 @@ $('#nw').mouseover(function() {
     $('#pe').removeClass('underline');
     $('#ts').removeClass('underline');
     $('#ed').removeClass('underline');
-    $('#resume').removeClass('underline');
 
     $('#peDesc').removeClass('base');
     $('#tsDesc').removeClass('base');
@@ -77,7 +74,6 @@ $('#ed').mouseover(function() {
     $('#pe').removeClass('underline');
     $('#nw').removeClass('underline');
     $('#ts').removeClass('underline');
-    $('#resume').removeClass('underline');
 
     $('#peDesc').removeClass('base');
     $('#nwDesc').removeClass('base');
@@ -88,28 +84,6 @@ $('#ed').mouseover(function() {
 
     $('#edDesc').removeClass('none');
     $('#edDesc').addClass('base');
-});
-
-$('#resume').mouseover(function() {
-
-    $('#sub').addClass('none');
-
-    $('#resume').addClass('underline');
-    $('#pe').removeClass('underline');
-    $('#nw').removeClass('underline');
-    $('#ts').removeClass('underline');
-    $('#ed').removeClass('underline');
-
-    $('#peDesc').removeClass('base');
-    $('#nwDesc').removeClass('base');
-    $('#tsDesc').removeClass('base');
-    $('#edDesc').removeClass('base');
-    $('#peDesc').addClass('none');
-    $('#nwDesc').addClass('none');
-    $('#tsDesc').addClass('none');
-    $('#edDesc').addClass('none');
-
-    $('#mn').addClass('none');
 });
 
 $('#dffa').mouseover(function() {

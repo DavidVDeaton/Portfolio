@@ -131,136 +131,90 @@ footer {
 }
 
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1080px) {
 
-    .wrapper {
-        width:1024px;
+    h1 {
+        font-size: 2.5em;
     }
 
-    nav ul {
-        padding-left: 0em;
-        padding-right: 3em;
+    h3 {
+        font-size: 1.6rem;
+        margin: 1rem;
     }
- 
-    .container {
-        padding-bottom:15px;
+
+    body {
+        background-position-x: -16rem;
+        background-position-y: 0rem;
+    }
+
+    @-webkit-keyframes load {
+        0% { 
+            background-position-x: -10rem;
+        }
+        100% {
+            background-position-x: -16rem;
+        }
+    
     }
     
-    .container-contact {
-        width:800px;
-        margin: auto;
+    @keyframes load {
+        0% { 
+            background-position-x: -10rem;
+        }
+        100% {
+            background-position-x: -16rem;
+        }
+    
     }
 
-    .form-group {
-        width:700px;
-        margin: auto;
-    }
-
-    .content {
-        min-height: calc(60vh - 80px);
-    }
-
-    footer {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-    }
 }
 
-/* These rule take effect when the browser's width is either 960 or less. */
+@media screen and (max-width:750px) {
 
-@media screen and (max-width:960px) {
-
-    .wrapper {
-        width:960px;
+    h3 {
+        font-size: 1.4rem;
     }
-}
 
-/* These rule take effect when the browser's width is either 768 or less. */
+    body {
+        background-position-x: -36rem;
+        background-position-y: 0rem;
+    }
 
-@media screen and (max-width:768px) {
-
-    .wrapper {
-        width:768px;
+    @-webkit-keyframes load {
+        0% { 
+            background-position-x: -30rem;
+        }
+        100% {
+            background-position-x: 36rem;
+        }
+    
     }
     
-    .container {
-        padding-bottom:15px;
+    @keyframes load {
+        0% { 
+            background-position-x: -30rem;
+        }
+        100% {
+            background-position-x: -36rem;
+        }
+    
     }
 
-    .container-contact {
-        width:650px;
-        margin:auto;
-    }
-
-    .form-group {
-        width:590px;
-        margin: auto;
-    }
-
-    footer {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-    }
 }
 
-/* These rule take effect when the browser's width is either 640 or less. */
+@media screen and (max-width: 600px) {
 
-@media screen and (max-width:640px) {
-
-    .wrapper {
-        width:500px;
+    h1 {
+        font-size: 2em;
+        padding-left: 0rem;
     }
 
-    .navbar {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+    h3 {
+        font-size: 1.1rem;
+        margin: .5rem;
     }
 
-    nav ul {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        padding: 0em;
+    .footDiv {
+        padding: 1rem .5rem;
     }
-
-    ul {
-        padding-left: 0em;
-    }
-
-    .container-contact {
-        width:450px;
-        margin: 0px, 25px;
-        background-color: maroon
-    }
-
-    .gold-contact {
-        color: gold;
-    }
-
-    .form-group {
-        width:450px;
-        margin: auto;
-    }
-
-    footer {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-    }
-  
-} 
+}
