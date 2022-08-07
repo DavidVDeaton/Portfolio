@@ -6,35 +6,9 @@
 }
 
 body {
-    background-image: url(images/CDC-David-Indv.jpg);
+    background-image: url(images/david-desktop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    font-family:'Permanent Marker', cursive;
-    background-position-y: -8rem;
-    -webkit-animation-name: load;
-            animation-name: load;
-    -webkit-animation-duration: 10s;
-            animation-duration: 10s;
-}
-
-@-webkit-keyframes load {
-    0% { 
-        background-position-y: -2rem;
-    }
-    100% {
-        background-position-y: -8rem;
-    }
-
-}
-
-@keyframes load {
-    0% { 
-        background-position-y: -2rem;
-    }
-    100% {
-        background-position-y: -8rem;
-    }
-
 }
 
 .footDiv {
@@ -131,7 +105,7 @@ footer {
 }
 
 
-@media screen and (max-width:1080px) {
+@media screen and (max-width:1024px) {
 
     h1 {
         font-size: 2.5em;
@@ -143,61 +117,19 @@ footer {
     }
 
     body {
-        background-position-x: -16rem;
-        background-position-y: 0rem;
-    }
-
-    @-webkit-keyframes load {
-        0% { 
-            background-position-x: -10rem;
-        }
-        100% {
-            background-position-x: -16rem;
-        }
-    
-    }
-    
-    @keyframes load {
-        0% { 
-            background-position-x: -10rem;
-        }
-        100% {
-            background-position-x: -16rem;
-        }
-    
+        background-image: url(images/david-ipad.jpg);
     }
 
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:768px) {
 
     h3 {
         font-size: 1.4rem;
     }
 
     body {
-        background-position-x: -36rem;
-        background-position-y: 0rem;
-    }
-
-    @-webkit-keyframes load {
-        0% { 
-            background-position-x: -30rem;
-        }
-        100% {
-            background-position-x: 36rem;
-        }
-    
-    }
-    
-    @keyframes load {
-        0% { 
-            background-position-x: -30rem;
-        }
-        100% {
-            background-position-x: -36rem;
-        }
-    
+        background-image: url(images/david-mobile.jpg);
     }
 
 }

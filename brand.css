@@ -7,7 +7,7 @@
 
 body {
     background-color: black;
-    background-image: url(images/CDC-David-Indv.jpg);
+    background-image: url(images/david-desktop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
@@ -243,10 +243,6 @@ footer {
         letter-spacing: 1px;
     }
 
-    body {
-        background-position-x: -6rem;
-    }
-
     .mainContent {
         width: 52%;
     }
@@ -257,23 +253,21 @@ footer {
 
 }
 
-@media screen and (max-width:1040px) {
-
-    body {
-        background-position-x: -9rem;
-    }
+@media screen and (max-width:1024px) {
 
     h3 {
         font-size: 1.0rem;
     }
 
+    body {
+        background-image: url(images/david-ipad.jpg);
+    }
+
 }
 
-@media screen and (max-width:950px) {
 
-    body {
-        background-position-x: -11rem;
-    }
+
+@media screen and (max-width:950px) {
 
     .mainContent {
         margin-top: 15%;
@@ -297,10 +291,6 @@ footer {
 
 @media screen and (max-width:820px) {
 
-    body {
-        background-position-x: -17rem;
-    }
-
     .mainContent {
         width: 62%;
         margin-left: 2%;
@@ -313,7 +303,7 @@ footer {
 
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:768px) {
 
     h1 {
         font-size: 2.5em;
@@ -328,7 +318,7 @@ footer {
     }
 
     body {
-        background-position-x: -20rem;
+        background-image: url(images/david-mobile.jpg);
     }
 
     .mainContent {
@@ -360,10 +350,6 @@ footer {
     .subContent {
         width: 66%;
     }
-
-    body {
-        background-position-x: -22rem;
-    }
 }
 
 @media screen and (max-width:640px) {
@@ -378,9 +364,6 @@ footer {
         margin-left: 1%;
     }
 
-    body {
-        background-position-x: -30rem;
-    }
 }
 
 @media screen and (max-width:600px) {
