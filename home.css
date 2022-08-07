@@ -10,6 +10,18 @@ body {
     background-repeat: no-repeat;
     font-family:'Permanent Marker', cursive;
     background-position-y: -8rem;
+    animation-name: load;
+    animation-duration: 10s;
+}
+
+@keyframes load {
+    0% { 
+        background-position-y: -2rem;
+    }
+    100% {
+        background-position-y: -8rem;
+    }
+
 }
 
 .footDiv {
@@ -21,7 +33,27 @@ body {
     font-family: 'Poppins', sans-serif;
     display: grid;
     place-items: center;
-    grid-template-columns: 1fr auto auto auto;
+    grid-template-columns: 1fr auto auto;
+    animation-name: loadFooter;
+    animation-duration: 6s;
+}
+
+@keyframes loadFooter {
+    0% { 
+        opacity: 0%;
+        filter: blur(5px);
+    }
+    20% { 
+        opacity: 0%;
+    }
+    40% { 
+        opacity: 100%;
+        filter: blur(3px);
+    }
+    80% {
+        filter: blur(0px);
+    }
+
 }
 
 h1 {

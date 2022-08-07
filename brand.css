@@ -14,16 +14,22 @@ body {
 }
 
 h1 {
-    color: rgb(235, 230, 230);
     font-size: 3.5em;
     padding: .5rem;
     margin-left: 2%;
     justify-self: start;
 }
 
+h2 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
 h3 {
     font-size: 1.2rem;
     margin: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
 }
 
 a {
@@ -54,7 +60,18 @@ nav {
     margin-top: 4%;
     margin-left: 5%;
     background-color: rgb(235, 230, 230, .75);
-    padding: .5rem;
+    padding: .75rem;
+    font-weight: 900;
+}
+
+.subContent {
+    height: auto;
+    width: 40%;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 5%;
+    background-color: rgb(235, 230, 230, .75);
+    padding: .75rem;
     font-weight: 900;
 }
 
@@ -82,4 +99,49 @@ footer {
 
 .base {
     display: block;
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+}
+
+@keyframes fadeIn {
+    0% { 
+        opacity: 0%;
+        filter: blur(5px);
+    }
+    20% { 
+        opacity: 0%;
+    }
+    40% { 
+        opacity: 100%;
+        filter: blur(3px);
+    }
+    80% {
+        filter: blur(0px);
+    }
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.grid-4 {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-4 li {
+    margin-left: 0rem;
+}
+
+.grid-3 {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-2 {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
 }
